@@ -1,0 +1,606 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Poppins:wght@400;500;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+    list-style: none;
+}
+
+.details {
+    height: 35px;
+    width: 35px;
+    margin-left: 160px;
+    background: linear-gradient(to right, #fb5283, #ff3550);
+    border: 0;
+    padding: 8px 7px;
+    outline: none;
+    font-weight: bolder;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: height 1s;
+}
+
+.header {
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(image/gym.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.header a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+.nav-links ul li a {
+    color: orange;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    flex: 1;
+    text-align: center;
+    margin-left: 10px;
+    color: orange;
+}
+.nav-links li {
+    display: inline-block;
+    margin-left: 10px;
+    color: orange;
+}
+.searchBar {
+    background: rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px 20px;
+    border: none;
+}
+
+::placeholder {
+    color: #cac7ff;
+}
+
+.searchBar input {
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    color: #cac7ff;
+}
+
+.searchBar button img {
+    width: 15px;
+}
+
+.button {
+    background-color: rgb(250, 59, 91);
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10%;
+    margin-top: 1.2%;
+    margin-bottom: 4%;
+}
+
+.button a {
+    color: white;
+    text-decoration: none;
+}
+
+#jelas {
+    border: none;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10%;
+    margin-bottom: 1.2%;
+}
+
+.searchBar button {
+    border: 0;
+    border-radius: 50%;
+    background: transparent;
+    cursor: pointer;
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+}
+
+
+
+.admin {
+    color: black;
+}
+
+.home {
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.box {
+    width: 80%;
+    position: absolute;
+    top: 35%;
+    left: 9%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.box h1 {
+    font-size: 30px;
+}
+
+.box p {
+    margin: 10px 0px 40px;
+}
+
+.penjelasan {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+h1 {
+    font-size: 35px;
+    font-weight: bolder;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.baris {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.baris-kolom {
+    flex-basis: 31%;
+    background-color: #EF3A5D;
+    /* background-image: linear-gradient(blue, red); */
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+
+h2 {
+    text-align: center;
+}
+
+.baris-kolom:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+
+/* HIIT */
+
+.HIIT {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    background-color: rgba(207, 248, 255, 0.7);
+    margin-top: 20px;
+    margin-bottom: 5%;
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.line {
+    padding-top: 50px;
+    margin-top: -2%;
+}
+
+.HIIT h1 {
+    text-align: center;
+    font-size: 50px;
+    color: rgb(5, 10, 107);
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
+}
+
+.HIIT p {
+    text-align: justify;
+    margin-bottom: 2%;
+}
+
+.HIIT-baris {
+    border-radius: 20px;
+    margin-bottom: 1%;
+}
+
+.HIIT-baris img {
+    max-width: 50%;
+    border-radius: 10%;
+    margin-left: -1%;
+}
+
+
+/* yoga */
+
+.yoga {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.line {
+    padding-top: 50px;
+    margin-top: -2%;
+}
+
+.yoga h1 {
+    text-align: center;
+}
+
+.yoga p {
+    text-align: justify;
+    margin-bottom: 2%;
+}
+
+.yoga-baris {
+    flex-basis: 50%;
+    border-radius: 20px;
+    margin-bottom: 3%;
+}
+
+.yoga-baris img {
+    width: 92%;
+    border-radius: 10%;
+    margin-left: -1%;
+}
+
+.yoga {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.yoga p {
+    text-align: justify;
+    margin-bottom: 2%;
+}
+
+
+/* cardio */
+
+.cardio {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.line {
+    padding-top: 50px;
+    margin-top: -2%;
+}
+
+.cardio h1 {
+    text-align: center;
+}
+
+.cardio p {
+    text-align: justify;
+    margin-bottom: 2%;
+}
+
+.cardio-baris {
+    flex-basis: 50%;
+    border-radius: 20px;
+    margin-bottom: 3%;
+}
+
+.cardio1 {
+    width: 20cm;
+}
+
+.cardio-baris img {
+    width: 92%;
+    border-radius: 10%;
+    margin-left: -1%;
+}
+
+.cardio {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.cardio p {
+    text-align: justify;
+    margin-bottom: 2%;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+    background-color: #FAE056;
+    font-weight: 64px;
+}
+
+footer h3 {
+    margin-bottom: 15px;
+    margin-top: 25px;
+    font-weight: 600;
+}
+
+.icon img {
+    height: 20px;
+    width: 20px;
+}
+
+.form {
+    display: inline-block;
+    background-color: white;
+    align-items: center;
+    padding-left: 2%;
+    margin-left: 27%;
+    text-align: center;
+    padding-top: 2%;
+    border-radius: 20px;
+    padding-right: 23px;
+    padding-bottom: 40px
+}
+
+.form h2 {
+    margin-bottom: 20px;
+}
+
+.form input {
+    padding: 20px 200px;
+    background-color: antiquewhite;
+    border: none;
+    border-radius: 9px;
+}
+
+.form option {
+    padding: 20px 200px;
+    background-color: antiquewhite;
+    border: none;
+    border-radius: 9px;
+}
+
+.form select {
+    padding: 20px 200px;
+    background-color: antiquewhite;
+    border: none;
+    border-radius: 9px;
+}
+
+.form button {
+    padding: 20px 400px;
+    border: none;
+    background-color: rgb(255, 96, 96);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 9px;
+    font-weight: bold;
+    color: white;
+
+}
+.preview img {
+    width: 30%;
+}
+.tombol {
+    padding: 20px 400px;
+    border: none;
+    background-color: rgb(255, 96, 96);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 9px;
+    font-weight: bold;
+    color: white;
+    font-size: 13px;
+    text-decoration: none;
+}
+.logout {
+    display: inline-block;
+    background-color: rgb(227, 255, 170);
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    
+}
+
+.formIns {
+    display: inline-block;
+    background-color: white;
+    align-items: center;
+    padding-left: 2%;
+    margin-left: 40%;
+    text-align: center;
+    padding-top: 2%;
+    border-radius: 20px;
+    padding-right: 23px;
+    padding-bottom: 40px
+}
+.formIns h2 {
+    margin-bottom: 20px;
+}
+
+.formIns input {
+    padding: 20px 50px;
+    background-color: antiquewhite;
+    border: none;
+    border-radius: 9px;
+    margin-bottom: 5%;
+}
+
+
+
+.formIns button {
+    padding: 20px 50px;
+    border: none;
+    background-color: rgb(255, 96, 96);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 9px;
+    font-weight: bold;
+    color: white;
+}
+
+.formEd {
+    display: inline-block;
+    background-color: white;
+    align-items: center;
+    padding-left: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    padding-top: 2%;
+    border-radius: 20px;
+    padding-right: 23px;
+    padding-bottom: 40px
+}
+
+.formEd input {
+    padding: 20px 200px;
+    background-color: antiquewhite;
+    border: none;
+    border-radius: 9px;
+    text-align: center;
+
+}
+.formEd img {
+    padding: 20px 200px;
+    border: none;
+    border-radius: 9px;
+
+}
+
+.formEd textarea {
+    padding: 20px 68px;
+    background-color: antiquewhite;
+    border: none;
+    border-radius: 9px;
+    text-align: justify;
+    width: 50%;
+
+}
+.formEd .sideInput {
+    padding: 20px 65px;
+    background-color: antiquewhite;
+    border: none;
+    border-radius: 9px;
+    text-align: center;
+    width: 50%;
+    align-items: center;
+    margin-bottom: 20px;
+
+
+}
+
+.formEd button {
+    padding: 20px 400px;
+    border: none;
+    background-color: rgb(255, 96, 96);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 9px;
+    font-weight: bold;
+    color: white;
+
+}
+.formVideo {
+    display: inline-block;
+    background-color: black;
+    align-items: center;
+    padding-left: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    padding-top: 2%;
+    border-radius: 20px;
+    padding-right: 23px;
+    padding-bottom: 40px
+}
+.formVideo input {
+    padding: 20px 200px;
+    background-color: antiquewhite;
+    border: none;
+    border-radius: 9px;
+    text-align: center;
+
+}
+.formVideo img {
+    padding: 20px 200px;
+    border: none;
+    border-radius: 9px;
+
+}
+
+.formVideo textarea {
+    padding: 20px 68px;
+    background-color: antiquewhite;
+    border: none;
+    border-radius: 9px;
+    text-align: justify;
+    width: 50%;
+
+}
+.formVideo .sideInput {
+    padding: 20px 65px;
+    background-color: antiquewhite;
+    border: none;
+    border-radius: 9px;
+    text-align: center;
+    width: 50%;
+    align-items: center;
+    margin-bottom: 20px;
+
+
+}
+
+.formVideo button {
+    padding: 20px 400px;
+    border: none;
+    background-color: rgb(255, 96, 96);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 9px;
+    font-weight: bold;
+    color: white;
+
+}
